@@ -13,6 +13,7 @@ coverage/
 *.swp
 *.swo
 
-.claude/
+.claude/*
+!.claude/skills/
 .idea/
 .vscode/

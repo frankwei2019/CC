@@ -1,0 +1,19 @@
+{
+  "name": "idiom-story-workshop",
+  "description": "Generate creative idiom story scripts and structured Seedance 2.0 prompts for children's educational short videos. Uses proven character IP and story formula from 37 published videos.",
+  "version": "1.0.0",
+  "author": {
+    "name": "bird"
+  },
+  "repository": "https://github.com/frankwei2019/CC",
+  "license": "MIT",
+  "keywords": [
+    "seedance",
+    "idiom-story",
+    "children-education",
+    "video-prompt",
+    "chinese-idiom",
+    "doubao",
+    "jimeng"
+  ]
+}
