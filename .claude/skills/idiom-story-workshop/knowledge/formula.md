@@ -5,7 +5,7 @@
 From the user's own analysis of 37 videos:
 
 ```
-[开场事件] + [角色冲突/情绪反应] + [具体动作细节] + [对话3-5句] + [结尾点题成语]
+[开场事件] + [角色冲突/情绪反应] + [具体动作细节] + [对话4-8句] + [结尾点题成语]
 ```
 
 ## Seedance 2.0 Five-Dimensional Architecture
@@ -62,7 +62,7 @@ Extracted from `seedance制作.txt`:
 1. **有具体情节/故事线** — Mini-story with beginning/middle/end, not just a scene
 2. **角色有明确情绪反应** — Emotions drive visuals: ecstatic, flipped over, crying
 3. **视觉细节具体** — "鼻青脸肿" "蓝色眼泪飞溅" concrete, not abstract
-4. **口语化对话，3-5句** — "你看号号给我发奖状了！" "加油！" natural speech
+4. **口语化对话，4-8句** — "你看号号给我发奖状了！" "太好了太好了！" "加油！" natural speech, distributed across shots
 5. **有梗/网络参考** — "我要验牌" 运镜、哆啦A梦哭脸 cultural anchors
 6. **正能量结尾** — Perseverance, correcting mistakes, learning lessons
 
@@ -83,3 +83,24 @@ Compare against benchmark standard:
 | 菠萝猫很高兴 | 菠萝猫欣喜若狂地敲门，一边做"我要验牌"飞牌动作，奖状旋转飞出 |
 
 Strong versions specify: body parts, motion trajectory, visual effects, emotional intensity.
+
+## Time-Segment Output Format
+
+Final Seedance prompts are labeled by time range, not shot number. The user copies and pastes directly into Seedance.
+
+```
+【0-Xs】
+[full prompt body]
+
+【Xs-Ys】
+[full prompt body]
+
+...
+```
+
+Time-segment pacing rules (from constraints.md):
+- **0-3s**: Ultra-short hook lines, total ≤20 字
+- **3-7s**: Main dialogue development, lines can be slightly longer
+- **7-10s**: Closing segment, total ≤16 字, must leave breathing room
+
+对话每句必须标注说话角色，格式：「角色名："对话内容"」

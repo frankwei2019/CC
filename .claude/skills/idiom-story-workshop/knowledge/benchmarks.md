@@ -1,6 +1,28 @@
 # Benchmark Cases
 
-Three top-performing videos with structural analysis.
+Four top-performing videos with structural analysis.
+
+---
+
+## Benchmark 0: 龙腾虎跃 (31000 plays / 4h) — `GROUP-SPECTACLE`
+
+### Story Structure
+```
+Beat 1 — Opening: 五个角色聚在森林空地，"开春第一跳"比赛，大龙虾举钳当裁判
+Beat 2 — Interaction: 小白兔、小灰熊、大水牛依次出场——耳朵打脑门、踩坑陷进去、抬蹄又放回
+Beat 3 — Spectacle: 菠萝猫弹射升空→撞树枝→在树冠间Z字弹珠式来回弹射，树叶纷飞
+Beat 4 — Dialogue: "看我的！啊！啊！啊——" "跳歪了！"
+Beat 5 — Punchline: 菠萝猫掉进大龙虾钳子怀里眼冒金星，龙虾说"这蹦来蹦去的，真是龙腾虎跃！"
+```
+
+### Why It Works
+- **群像喜剧**: 每个配角都有独立的失败笑点，不是背景板
+- **物理能量递进**: 耳朵弹脑门→踩坑→收蹄→弹珠弹射，能量逐级攀升
+- **Z字弹射奇观**: 菠萝猫在树冠间来回弹的弹珠动画是全新视觉记忆点
+- **温暖收尾**: 掉进龙虾怀里比V，所有角色围过来鼓掌，正能量满格
+- **配角不浪费**: 小白兔、小灰熊、大水牛各有独立笑点节奏，出场有先后不拥挤
+
+**Best for**: idioms about vitality, energy, excitement, celebration
 
 ---
 
@@ -93,13 +115,30 @@ Exaggerated physical action + concrete visual details
 → Match specificity of "我要验牌" "四脚朝天" "蓝眼泪飞溅"
 
 Beat 4 — DIALOGUE (overlaps spectacle)
-3-5 colloquial exchanges, naturally leading to the idiom
+4-8 colloquial exchanges, naturally leading to the idiom
 → Characters talk like real people, not lecturers
 
 Beat 5 — PUNCHLINE (10-15s)
 Character explains/uses the idiom through dialogue
 → 菠萝猫 or 大龙虾 says the idiom as part of conversation
 ```
+
+## GROUP-SPECTACLE Pattern (from 龙腾虎跃, 31000 plays)
+
+Use when the idiom is about collective energy, vitality, or celebration:
+
+```
+Beat 1 — OPENING (0-2s): Multiple characters gather with a clear goal/stakes
+Beat 2 — SUPPORTING FAILS (2-4s): 2-3配角依次出场，每人独立短笑点（≤3s total）
+Beat 3 — MAIN SPECTACLE (4-7s): 菠萝猫的夸张物理高潮，全新的视觉记忆点
+Beat 4 — FALL/RECOVERY (7-8.5s): 坠落/失败→被接住/化解，情绪安全着陆
+Beat 5 — GROUP PUNCHLINE (8.5-10s): 所有角色同框，大龙虾点题，温暖正能量收束
+```
+
+Key rules for this pattern:
+- Each side character gets exactly ONE joke, not shared screen time
+- Spectacle must be a never-before-seen visual (弹珠弹射, not just jumping)
+- Ending must include all characters, not just the idiom speaker
 
 ## Story Angle Quality Checklist
 
